@@ -1,0 +1,25 @@
+button{
+  padding: 20px;
+  font-size: 1rem;
+color: black;
+border-radius: 5px;
+border: 1px solid;
+}
+
+.red-class{
+  background-color: red;
+}
+
+.green-class{
+  background-color: green;
+}
+
+/*
+.blue-btn{
+  background-color: blue;
+}
+
+.black-btn{
+  background-color: black;
+}
+ */
