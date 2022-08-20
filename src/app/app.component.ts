@@ -15,7 +15,9 @@ export class AppComponent {
   inputValueText2="";
   inputValueText3="";
 
+constructor(){
 
+}
   ngOnInit(): void {
 
   }
@@ -29,6 +31,14 @@ export class AppComponent {
   }
   onClickBtn(event:Event):void{
   console.log(event.target);
+  }
+
+  checkInput4(eve:any):void{
+    console.log(eve)
+    if (eve.target.value =="Ali") {
+      window.alert("hello "+ eve.target.value);
+
+    }
   }
 
 }

@@ -20,16 +20,19 @@
 
 <br /><br />
 <input #input2 (input)="inputValueText2 = input2.value"/>
-<br /><br />
+
 
 <h2>{{inputValueText2}}</h2>
 
 
-<br /><br />
 <input type="text" [(ngModel)]="inputValueText3" />
-<br /><br />
+
 
 <h2>{{inputValueText3}}</h2>
+
+<p>Helo</p>
+<input type="text" (change)="checkInput4($event)" />
+
 
 
 
